@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => const UserDetailsScreen(),
         '/scientific_calculator': (context) => const CalculatorScreen(),
         '/quiz': (context) => const QuizScreen(),
-        '/weather': (context) => WeatherScreen(),
+        '/weather': (context) => const WeatherScreen(),
       },
     );
   }
